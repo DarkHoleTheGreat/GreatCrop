@@ -1,0 +1,71 @@
+.rotation-block {
+    max-width: 200vh;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid green;
+    background-color: aliceblue;
+    position: relative;
+    min-height: 40vh;
+}
+
+.rotation-slide {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.rotation-slide.active {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(5px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(66, 143, 47);
+    align-content: center;
+    justify-content: center;
+}
+
+nav a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    background-color: rgb(158, 214, 144);;
+}
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 10vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

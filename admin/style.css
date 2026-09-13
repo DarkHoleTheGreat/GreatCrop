@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidePanel {
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.container {
+    display: flex;
+}
+
+.containerCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidePanelHeader {
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid black;
+    margin: 16px;
+}
+
+.sidePanelHeader .containerCenter h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidePanelHeader .containerCenter span {
+    font-size: 20px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContent {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContentHeader {
+    width: 100%;
+    height: 20%;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.mainContentHeader button {
+    margin: 20px;
+    height: 50px;
+    width: 20vh;
+    border: none;
+    background-color: #28a004;
+    color: white;
+    border-radius: 20px;
+}
+
+.mainContentHeader button:hover {
+    background-color: #b6fc8e;
+    cursor: pointer;
+}
+
+.mainContentHeader div span {
+    font-size: 36px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.mainContentHeader div p {
+    font-size: 16px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContent table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.mainContent table th,
+.mainContent table td {
+    border-bottom: 1px solid black;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.sidePanelMenu a {
+    display: block;
+    padding: 16px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 35vh;
+    border-radius: 20px;
+}
+
+.sidePanelMenu a:hover {
+    background-color: rgb(189, 245, 163);
+}
+
+.sidePanelMenu a.active {
+    background-color: #2ca507;
+    color: white;
+}
+
+.sidePanelMenu a.iziet {
+    background-color: #fdf8b9;
+    border: 1px solid #fefff9;
+}
+
+.sidePanelMenu a.iziet:hover {
+    background-color: #eceeca;
+
+}
