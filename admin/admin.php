@@ -17,7 +17,7 @@
         </div>
         <div class="sidePanelMenu">
             <a href="admin.php" class="active">Vadības panelis</a><br>
-            <a href="">Amati</a>
+            <a href="amati/amati.php">Amati</a>
             <a href="">Personals</a>
             <a href="">Lietotaji</a>
             <a href="">Darba uzdevumi</a>
